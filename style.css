@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+header {
+  width: 100%;
+  margin-top: 25px;
+}
+header #main-logo-container {
+  float: left;
+}
+header #main-nav {
+  float: right;
+}
+header #main-nav a {
+  padding: 9px 15px;
+  margin-right: 50px;
+  color: black;
+  text-decoration: none;
+}
+
+main h1[title] {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 2%;
+}
+main input[type=email] {
+  display: block;
+  margin: auto;
+  margin-top: 2em;
+  font-size: 1.5em;
+  width: 25%;
+  padding: 3px 5px;
+}
+main button[name=starter] {
+  display: block;
+  margin: auto;
+  background-color: goldenrod;
+  font-size: 1em;
+  font-weight: bolder;
+  padding: 7px 11px;
+}
+main .features {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+main .features .inner-cont {
+  margin-left: 1%;
+}
+main .features .imagefa {
+  height: 80px;
+  width: 100px;
+}
+main .features .fas, main .features .fab {
+  color: darkorange;
+}
+main video[autoplay] {
+  display: block;
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+main #box-container {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+main #box-container .box {
+  width: 30%;
+  border: 1px inset black;
+  border-radius: 2px;
+}
+main #box-container .box h1 {
+  font-size: 22px;
+  text-align: center;
+  padding: 5%;
+  background-color: silver;
+}
+main #box-container .box h2 {
+  text-align: center;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+main #box-container .box p {
+  text-align: center;
+  font-size: 18px;
+}
+main #box-container .box button[name=selector] {
+  display: block;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 9px 15px;
+  font-size: 20px;
+  background-color: orange;
+}
+main #box-container .box button[name=selector]:hover {
+  background-color: darkorange;
+}
+
+footer {
+  display: block;
+  height: 12vh;
+  width: 80%;
+  margin: auto;
+  background-color: gainsboro;
+  text-align: right;
+}
+footer #footer-ul a {
+  color: black;
+  padding: 7px 10px;
+  margin: 1%;
+  text-align: right;
+  margin-top: 20px;
+  text-decoration: none;
+}
+footer #abcr {
+  font-size: 15px;
+  margin-right: 1%;
+  color: gray;
+}
+
+/*# sourceMappingURL=style.css.map */
